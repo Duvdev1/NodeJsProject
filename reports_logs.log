@@ -1,0 +1,224 @@
+info: Label: May-29-2022 15:22:41: Hello, Winston!
+info: Label: May-29-2022 15:26:05: Hello, Winston!
+info: Label: May-29-2022 15:27:39: Hello, Winston!
+info: Label: May-29-2022 15:28:20: Hello, Winston!
+info: Label: May-29-2022 15:28:20: start
+debug: Label: May-29-2022 15:28:42: get all reports
+info: Label: May-29-2022 15:28:56: Hello, Winston!
+info: Label: May-29-2022 15:28:56: start
+debug: Label: May-29-2022 15:29:12: get all reports
+info: Label: May-29-2022 15:29:40: Hello, Winston!
+info: Label: May-29-2022 15:29:40: start
+debug: Label: May-29-2022 15:30:11: get all reports
+info: Label: May-29-2022 15:31:37: Hello, Winston!
+info: Label: May-29-2022 15:32:01: Hello, Winston!
+info: Label: May-29-2022 15:32:01: start
+debug: Label: May-29-2022 15:32:11: get all reports
+info: Label: May-29-2022 15:32:52: Hello, Winston!
+info: Label: May-29-2022 15:33:25: Hello, Winston!
+info: Label: May-29-2022 15:34:19: Hello, Winston!
+info: Label: May-29-2022 15:36:40: Hello, Winston!
+info: Label: May-29-2022 15:36:40: start
+info: Label: May-29-2022 15:37:56: Hello, Winston!
+info: Label: May-29-2022 15:37:57: start
+debug: Label: May-29-2022 15:38:04: check
+info: Label: May-29-2022 15:40:47: Hello, Winston!
+info: Label: May-29-2022 15:40:47: start
+debug: Label: May-29-2022 15:40:55: check
+info: Label: May-29-2022 15:41:45: Hello, Winston!
+info: Label: May-29-2022 15:41:45: start
+debug: Label: May-29-2022 15:41:51: check
+info: Label: May-29-2022 15:42:17: Hello, Winston!
+info: Label: May-29-2022 15:42:32: Hello, Winston!
+info: Label: May-29-2022 15:42:32: start
+debug: Label: May-29-2022 15:42:37: check
+info: Label: May-29-2022 15:43:21: Hello, Winston!
+info: Label: May-29-2022 15:43:25: Hello, Winston!
+info: Label: May-29-2022 15:43:25: start
+debug: Label: May-29-2022 15:44:05: check
+info: Label: May-29-2022 15:46:12: Hello, Winston!
+info: Label: May-29-2022 15:46:12: start
+debug: Label: May-29-2022 15:46:21: check
+info: Label: May-29-2022 15:47:21: Hello, Winston!
+info: Label: May-29-2022 15:47:21: start
+debug: Label: May-29-2022 15:47:27: check
+info: Label: May-29-2022 15:51:03: Hello, Winston!
+info: Label: May-29-2022 15:51:03: start
+debug: Label: May-29-2022 15:51:13: check
+info: Label: May-29-2022 15:51:41: Hello, Winston!
+info: Label: May-29-2022 15:51:41: start
+debug: Label: May-29-2022 15:51:48: check
+info: Label: May-29-2022 15:53:29: Hello, Winston!
+info: Label: May-29-2022 15:53:29: start
+debug: Label: May-29-2022 15:53:36: check
+info: Label: May-29-2022 15:55:33: Hello, Winston!
+info: Label: May-29-2022 15:55:33: start
+debug: Label: May-29-2022 15:55:39: check
+info: Label: May-29-2022 15:56:08: Hello, Winston!
+info: Label: May-29-2022 15:56:09: start
+debug: Label: May-29-2022 15:56:15: check
+info: Label: May-29-2022 15:56:54: Hello, Winston!
+info: Label: May-29-2022 15:56:59: Hello, Winston!
+info: Label: May-29-2022 15:56:59: start
+debug: Label: May-29-2022 15:57:08: check
+info: Label: May-31-2022 11:21:00: Hello, Winston!
+info: Label: May-31-2022 11:21:00: start
+debug: Label: May-31-2022 11:22:00: check
+info: Label: May-31-2022 11:24:05: Hello, Winston!
+info: Label: May-31-2022 11:24:05: start
+info: Label: May-31-2022 11:25:58: Hello, Winston!
+info: Label: May-31-2022 11:25:59: start
+info: Label: May-31-2022 11:29:16: Hello, Winston!
+info: Label: May-31-2022 11:43:43: Hello, Winston!
+info: Label: May-31-2022 11:43:43: start the system
+debug: Label: May-31-2022 11:44:21: check
+info: Label: May-31-2022 11:45:11: Hello, Winston!
+info: Label: May-31-2022 11:45:11: start the system
+debug: Label: May-31-2022 11:45:25: check
+info: Label: May-31-2022 11:48:11: Hello, Winston!
+info: Label: May-31-2022 11:48:12: start the system
+debug: Label: May-31-2022 11:48:18: check
+info: Label: May-31-2022 11:50:13: Hello, Winston!
+debug: Label: May-31-2022 11:50:13: [object Object]
+info: Label: May-31-2022 11:50:41: Hello, Winston!
+debug: Label: May-31-2022 11:50:41: reports_db.db
+info: Label: May-31-2022 11:51:08: Hello, Winston!
+debug: Label: May-31-2022 11:51:08: undefined
+info: Label: May-31-2022 11:51:26: Hello, Winston!
+debug: Label: May-31-2022 11:51:26: sqlite3
+info: Label: May-31-2022 11:53:37: Hello, Winston!
+debug: Label: May-31-2022 11:53:37: sqlite3
+info: Label: May-31-2022 11:53:51: Hello, Winston!
+debug: Label: May-31-2022 11:53:51: sqlite3
+info: Label: May-31-2022 11:53:51: start the system
+info: Label: May-31-2022 11:54:30: Hello, Winston!
+debug: Label: May-31-2022 11:54:30: sqlite3
+debug: Label: May-31-2022 11:54:30: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 11:55:30: Hello, Winston!
+debug: Label: May-31-2022 11:55:30: sqlite3
+debug: Label: May-31-2022 11:55:30: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+debug: Label: May-31-2022 11:55:30: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 11:56:40: Hello, Winston!
+debug: Label: May-31-2022 11:56:40: sqlite3
+debug: Label: May-31-2022 11:56:40: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+debug: Label: May-31-2022 11:56:40: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 11:56:40: start the system
+debug: Label: May-31-2022 11:56:49: check
+info: Label: May-31-2022 12:01:41: Hello, Winston!
+debug: Label: May-31-2022 12:01:41: sqlite3
+debug: Label: May-31-2022 12:01:41: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+debug: Label: May-31-2022 12:01:41: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:01:41: start the system
+debug: Label: May-31-2022 12:01:48: check
+info: Label: May-31-2022 12:24:00: Hello, Winston!
+debug: Label: May-31-2022 12:24:00: sqlite3
+debug: Label: May-31-2022 12:24:00: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+debug: Label: May-31-2022 12:24:00: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:24:00: start the system
+debug: Label: May-31-2022 12:24:09: check
+info: Label: May-31-2022 12:25:15: Hello, Winston!
+debug: Label: May-31-2022 12:25:15: sqlite3
+debug: Label: May-31-2022 12:25:15: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+debug: Label: May-31-2022 12:25:15: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:25:15: start the system
+debug: Label: May-31-2022 12:25:23: get all reports
+info: Label: May-31-2022 12:40:27: Hello, Winston!
+debug: Label: May-31-2022 12:40:27: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:40:36: Hello, Winston!
+debug: Label: May-31-2022 12:40:36: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:40:36: start the system
+debug: Label: May-31-2022 12:40:46: get all reports
+info: Label: May-31-2022 12:44:09: Hello, Winston!
+debug: Label: May-31-2022 12:44:09: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:44:09: start the system
+debug: Label: May-31-2022 12:44:21: get all reports
+info: Label: May-31-2022 12:46:30: Hello, Winston!
+debug: Label: May-31-2022 12:46:30: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:46:30: start the system
+debug: Label: May-31-2022 12:46:37: get all reports
+info: Label: May-31-2022 12:54:59: Hello, Winston!
+debug: Label: May-31-2022 12:55:00: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 12:55:00: start the system
+debug: Label: May-31-2022 12:55:09: get all reports
+info: Label: May-31-2022 13:07:25: Hello, Winston!
+debug: Label: May-31-2022 13:07:25: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:07:25: start the system
+info: Label: May-31-2022 13:07:30: Hello, Winston!
+debug: Label: May-31-2022 13:07:30: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:07:30: start the system
+info: Label: May-31-2022 13:07:32: Hello, Winston!
+debug: Label: May-31-2022 13:07:32: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:07:32: start the system
+info: Label: May-31-2022 13:07:34: Hello, Winston!
+debug: Label: May-31-2022 13:07:34: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:07:34: start the system
+info: Label: May-31-2022 13:07:35: Hello, Winston!
+debug: Label: May-31-2022 13:07:35: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:07:35: start the system
+info: Label: May-31-2022 13:07:37: Hello, Winston!
+debug: Label: May-31-2022 13:07:37: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:07:37: start the system
+info: Label: May-31-2022 13:08:36: Hello, Winston!
+debug: Label: May-31-2022 13:08:37: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:08:37: start the system
+info: Label: May-31-2022 13:08:38: Hello, Winston!
+debug: Label: May-31-2022 13:08:38: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:08:38: start the system
+info: Label: May-31-2022 13:08:43: Hello, Winston!
+debug: Label: May-31-2022 13:08:43: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:08:43: start the system
+info: Label: May-31-2022 13:09:09: Hello, Winston!
+debug: Label: May-31-2022 13:09:09: function knex(tableName, options) {
+    return createQueryBuilder(knex.context, tableName, options);
+  }
+info: Label: May-31-2022 13:09:09: start the system
