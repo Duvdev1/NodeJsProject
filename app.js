@@ -1,29 +1,54 @@
 // app api
-
 const express = require("express");
 const path = require("path");
 const logger = require("./logger").logger;
-const dbrepo = require("./dbRepo");
-//const { update } = require("lodash");
-//const { Console } = require("console");
+const {get_dbrepo} = require('./getdbRepo');
+const config = require('config');
+const mode = config.get('mode');
+const dbrepo = get_dbrepo(mode.mode);
+
 logger.info("start the system");
 
 const port = 8088;
 const app = express();
 
 // server static page
-app.use(express.static(path.join('.', '/static')));
+app.use(express.static(path.join(__dirname,  'index.html')));
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-// go to static page and get all the reports from the db
-//app.get('/', (req, res) => {
-  //  res.sendFile(path.join(__dirname, 'html/reports.html'));
-//});
+// swagger part
+var swagger_ui = require('swagger-ui-express');
+var swagger_doc = require('./swagger.json');
 
-// get from /reports -> get all reports
+app.use('/api-docs', swagger_ui.serve, swagger_ui.setup(swagger_doc));
+
+//go to static page and get all the reports from the db
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+// get from /reports -> get all reports or by speed parameter
 app.get('/reports', async(req, res) => {
-    logger.debug('get all reports');
+    const speed = req.query.speed;
+    logger.info('Check if the user enter speed')
+    logger.debug(speed);
+    if (speed) {
+        logger.debug(isNaN(Number(speed)));
+        if (isNaN(Number(speed))){
+            logger.error('The speed in the body is not a number');
+            const answer = '${speed} is not a number';
+            res.status(400).json({answer});
+            return;
+        } 
+        else {
+            logger.info('get all reports with the same speed');
+            const reports = await dbrepo.get_reports_by_condition('speed', speed);
+            res.status(200).json({reports});
+            return;
+        }
+    }
+    logger.info('get all reports');
     const reports_ = await dbrepo.get_all_reports();
     logger.debug(reports_);
     res.status(200).json({reports_});
@@ -31,7 +56,7 @@ app.get('/reports', async(req, res) => {
 
 // get by id a report
 app.get('/reports/:id', async(req, res) => {
-    logger.debug('get a report by id');
+    logger.info('get a report by id');
     const reportid = req.params.id;
     logger.debug({reportid});
     const report = await dbrepo.get_report_by_id(reportid);
@@ -67,13 +92,14 @@ app.put('/reports/:id', async(req, res) => {
     logger.debug('try to update a report');
     try {
         const report_id = req.params.id;
-        logger.debug(report_id);
         const report = req.body;
-        const update = await dbrepo.update_report_by_id(report_id, report);
+        logger.debug(report);
+        const update = await dbrepo.update_report_by_id(report_id, new_report);
         logger.debug('the report has been updated');
         res.status(201).json({
             res: 'success',
-            url: ('localhost:8088/reports/' + {report_id})
+            url: ('localhost:8088/reports/' + {report_id}),
+            update
         });
     }
     catch(e){
@@ -109,4 +135,6 @@ app.delete('/reports/:id', async(req, res) => {
 });
 
 app.listen(port, () => console.log('listening to port'+ {port}));
+
+module.exports = app;
 

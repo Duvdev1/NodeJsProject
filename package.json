@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "server" : "nodemon app.js",
+    "server": "nodemon app.js",
     "test": "mocha app.test.js",
     "test-core": "mocha app.test.js",
     "start": "node app.js"
@@ -64,8 +64,11 @@
     "sqlite": "^4.1.1",
     "sqlite3": "^5.0.8",
     "stack-trace": "^1.0.0-pre1",
+    "status": "^0.0.13",
     "superset": "^2.0.1",
     "supertest": "^6.2.3",
+    "swagger": "^0.0.1",
+    "swagger-ui-express": "^4.4.0",
     "tedious": "^14.5.0",
     "test": "^0.6.0",
     "triple-beam": "^1.3.0",

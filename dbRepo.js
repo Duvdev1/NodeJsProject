@@ -1,6 +1,5 @@
-const connectdKenex = require("./knex");
-const logger = require("./logger").logger;
-logger.debug(connectdKenex);
+const {connectdKenex} = require("./knex-connector");
+const {logger} = require("./logger");
 
 // get all reports form the table
 function get_all_reports(){
@@ -23,6 +22,7 @@ function add_Report(report){
 // update a report detalis in the table
 function update_report_by_id (id, report){
     logger.info('update report detalis by id in the db');
+    logger.debug(id + report);
     return connectdKenex("reports").where("id", id).update(report);
 }
 
